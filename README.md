@@ -9,7 +9,7 @@ The candidate should:
 2. Run tests / console app
 3. Find and fix one logical bug in the application layer
 
-Target solve time: **~10 minutes**.
+Target solve time: ***.
 
 ## Tech
 
