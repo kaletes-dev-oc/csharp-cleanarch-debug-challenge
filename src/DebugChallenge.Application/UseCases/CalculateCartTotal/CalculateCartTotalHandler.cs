@@ -21,7 +21,6 @@ public sealed class CalculateCartTotalHandler
             throw new InvalidOperationException("Cart is empty.");
 
         // Intentional interview bug:
-        // DistinctBy removes duplicate SKUs instead of summing their quantities.
         // For example: KB-01:1,KB-01:2 should charge 3 units, but this logic charges only 1.
         var effectiveLines = command.Lines
             .Where(line => line.Quantity > 0)
