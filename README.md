@@ -1,6 +1,6 @@
 # C# Clean Architecture Debug Challenge
 
-Small interview exercise for a medior C# developer.
+Small interview exercise for a C# developer.
 
 ## Goal
 
